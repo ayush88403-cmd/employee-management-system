@@ -36,6 +36,7 @@ const submitHandler = (e) =>{
              value={pass}
             onChange={(e)=>{
                 setPass(e.target.value)
+                
             }} 
             required
             className='border-2 outline-none bg-transparent rounded-xl border-emerald-600 font-medium mt-3 text-amber-50  px-2 py-4 placeholder:text-gray-400 text-lg' type="enter your email " placeholder='enter password'/>

@@ -24,12 +24,14 @@ const submitHandler = (e) =>{
         onSubmit={(e) =>{
            submitHandler(e)
         }} 
+        //all the way up  
         className='  flex flex-col items-center justify-center'>
             <input
             value={email}
             onChange={(e)=>{
                 setEmail(e.target.value)
             }} 
+            
             required
             className='border-2 outline-none bg-transparent rounded-xl border-emerald-600 font-medium text-amber-50  px-2 py-4 placeholder:text-gray-400 text-lg' type="enter your email" placeholder='enter  email'/>
             <input 
